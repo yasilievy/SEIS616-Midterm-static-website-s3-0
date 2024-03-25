@@ -42,7 +42,7 @@ module "ec2_instances" {
 }
 
 module "website_s3_bucket" {
-  source = "./modules/aws-s3-static-website-bucket"
+  source = "./aws-s3-static-website-bucket"
 
   bucket_name = "tutorial-static-website-s3"
 
